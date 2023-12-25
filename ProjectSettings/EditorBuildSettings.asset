@@ -5,10 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/_MyProjectName/Scenes/Portal.unity
+    guid: 63eb063fcc6003b4883dad9c8c2f1885
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/ARDemoScene.unity
+    guid: da4db6c21a88243878fecfe160c1be3b
   m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ca5d120f245d4da44ba6dd135e2edeef,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 65044514926e993498dd1e6ea865c9d5,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: cffbb3227e1e96d4ba7f2ef2dee2faad,
